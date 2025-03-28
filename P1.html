@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P1</title>
+</head>
+<style>
+
+*{
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+.headings {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px 0px;
+    
+}
+
+#portfolio {
+    color: #333;
+    padding: 10px;
+  }
+
+.gallery {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    perspective: 500px;
+  }
+  
+  .gallery img {
+    width: 420px;
+    height: 350px;
+    /* margin-left: 0px; */
+    margin: 80px;
+    padding: 10px;
+    transition: 1s ease;
+    border: 2px double;
+}
+
+.gallery img:hover {
+  transform: rotateY(20deg);
+}
+
+</style>
+<body>
+  <!-- Lorem ipsum dolor sit amet consectetur adipisicing. -->
+  <section id="portfolio">
+    <h1 class="headings"><u>PROJECTS</u></h1>
+    <div class="gallery">
+        <img src="C2.png" alt="" >
+        <!-- <p>COURIER SYSTEM</p> -->
+        
+        <img src="C3.png" alt="">
+        <!-- <b>SCHOLAR CONNECT</b> -->
+        <!-- <img src="d4.webp" alt="">
+        <img src="d8.jpg" alt="">
+        <img src="d9.png" alt="">
+        <img src="d10.webp" alt=""> -->
+    </div>
+</section>
+</body>
+</html>

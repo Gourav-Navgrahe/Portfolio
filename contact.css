@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}  
+
+.contact-section {
+  /* background-color: aqua; */
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 60px 0;
+  color: #333;
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  /* max-width: 800px; */
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.section-description {
+  font-size: 1.1em;
+  color: #333;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  position: relative;
+}
+
+input, textarea {
+  width: 55%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1em;
+  color: #333;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.btn-submit {
+  width: 50%;
+  padding: 12px 30px;
+  margin-left: 25%;
+  font-size: 1.1em;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: red;
+}
+
+.form-status {
+  margin-top: 55px;
+  font-size: 1.2em;
+  color: #28a745;
+  visibility: hidden;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+      font-size: 2em;
+  }
+
+  .section-description {
+      font-size: 1em;
+  }
+
+  .btn-submit {
+      padding: 10px 20px;
+  }
+}
